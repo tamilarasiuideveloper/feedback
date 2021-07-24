@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+			<!--title-->
+	<title>DeepSphere.AI Student Feedback and Recommendation System</title>
+			<!--meta tag-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<!-- script Links -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- datatables -->
+	<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script> 
+	<script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	<!--css links-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap4.min.css">
+
+	<!--Font -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+</head>
+
+<!--body section-->
+<body class="login-portal">
+<header class="clearHeader" id="top">
+<nav class="navbar navbar-light navbar-laravel">
+    <div class="container-fluid">
+	<!--logo section-->
+	    <nav class="navbar navbar-light navbar-laravel">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.php"><img src="images/logo.png" title="DeepSphere AI"></a>
+			</div>
+		</nav>
+		<div class="middle-txt">
+				<h3 class="WelCome-txt">WELCOME TO STUDENT FEEDBACK AND RECOMMENDATION SYSTEM</h3>
+        </div>
+	</div>     
+</nav>
+</header>
+<nav id="sidebar" class="sidebar-wrapper left-sidebar">
+    <div class="sidebar-content">
+		<!-- <div class="mobile-Menu"> -->
+			<!-- <img class="mobile-menubar" src="images/menubar.png"> -->
+		<!-- </div> -->
+		<!-- sidebar-search  -->
+        <div class="sidebar-menu left-admin" id="admin-container" >
+            <ul id="left-side-menubar">
+				<li class=""> 
+					<a class="active" href="#"> Manage Users </a></li>
+				<li class=""> 
+					<a class="active" href="#"> Manage Feedback </a></li>
+				<li class=""> 
+					<a  class="" href="#">Manage Recommendation</a></li>
+				<li class=""> 
+					<a class="" href="#"> Manage Quiz</a> </li>
+			    <li class="">  
+					<a class="" href="#"> Manage Assessment</a></li>
+			</ul>
+        </div>
+			<!-- sidebar-menu  -->
+    </div>  
+</nav>
+  <div class="page-wrapper-content">
+	<h2 class="tit-Sec text-center"> STUDENT FEEDBACK AND RECOMMENDATION </h2>
+<!--form-->	
+	<div class="form">
+		<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+						 <!--FirstName -->
+						 <div class="list-details">
+							 	<div class="form-row align-items-center">
+								<label class="" for="inlineFormCustomSelect">Student Name</label>
+									<div class="">
+										<div class="form-check">
+											<span class="right-column">
+												<select name="user_type">
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													    
+												</select>
+											</span>
+										</div>
+									</div>
+							</div>
+							   <!--LastName -->
+								<div class="form-row align-items-center">
+								<label class="" for="inlineFormCustomSelect">Course</label>
+									<div class="">
+										<div class="form-check">
+											<span class="right-column">
+												<select name="user_type">
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													    
+												</select>
+											</span>
+										</div>
+									</div>
+							</div>
+							     <!--LastName -->
+							<div class="form-row align-items-center">
+								<label class="" for="inlineFormCustomSelect">Unit</label>
+									<div class="">
+										<div class="form-check">
+											<span class="right-column">
+												<select name="user_type">
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													<option value="0"> -Select- </option><option value="0"> -Select- </option>
+													    
+												</select>
+											</span>
+										</div>
+									</div>
+							</div>
+							</div>
+							     <!--LastName -->
+						</div>
+				
+					</div>
+		</div>
+					<!--submit-->
+					<div class="button-type">
+					<div class="save-button text-center">
+					<!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+					<button class="btn btn-unique btn-rounded btn-sm search" type="submit">Search</button>
+					<a class="reset-btn" href="javascript:void();"><input class="btn btn-primary reset" type="reset" value="Reset"></a>  
+					
+					</div>
+						<!--Reset-->
+					<div class="reset-button text-center">
+						<span>
+							
+						</span>
+					</div>
+					</div>
+	</div>
+	
+	
+	
+	<!----after search list items---->
+			<div class="displsy-results">
+				<table id="table" class="table table-striped table-bordered nowrap list_Can" style="width:100%">
+					<thead>
+						<tr class="th-row">
+							<th>S.No</th>
+							<th>Description</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="tr-row">
+							<td>1</td>
+							<td>Quiz</td>
+							<td><a href="javascript:void();">Add Quiz</a></td>
+						</tr>
+						<tr class="tr-row">
+							<td>2</td>
+							<td>Assignment</td>
+							<td><a href="javascript:void();">Add Assignment</a></td>
+						</tr>
+						<tr class="tr-row">
+							<td>3</td>
+							<td>Feedback</td>
+							<td><a href="javascript:void();">Add Feedback</a></td>
+						</tr>
+						<tr class="tr-row">
+							<td>4</td>
+							<td>Recommendation</td>
+							<td><a href="javascript:void();">Add Recommendation</a></td>
+						</tr>
+										
+					</tbody>								
+				</table>
+			</div>
+			
+			
+			<!-----after click add feedback this need to show. if empty then this message want to show. ----->
+			<div class="feedback-part">
+				<div class="add-feedback-part student">
+					<h2 class="tit-Sec text-center"> Student Feedback </h2>
+					<div class="first-timeOpen">
+						<h4>No student feedback </h4>
+						<p><a class="addnow" href="javascript:void();"  data-toggle="modal" data-target="#myModal">Add Now</a></p>
+					</div>
+				</div>
+				<div class="add-feedback-part parent">
+					<h2 class="tit-Sec text-center"> Parent Feedback </h2>
+					<div class="first-timeOpen">
+						<h4>No parent feedback </h4>
+						<p><a class="addnow" href="javascript:void();"  data-toggle="modal" data-target="#myModal">Add Now</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<!---after save the popup the content list shown in tis type--->
+			<div class="view-feedback">
+			<h2 class="tit-Sec text-center"> Student Feedback </h2>
+						<div class="displsy-results">
+				<table id="table1" class="table table-striped table-bordered nowrap list_Can" style="width:100%">
+					<thead>
+						<tr class="th-row">
+							<th>S.No</th>
+							<th>Description</th>
+							<th colspan="2">Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="tr-row">
+							<td>1</td>
+							<td>Quiz</td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/editing.png"></a></td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/delete.png"></a></td>
+						</tr>
+						<tr class="tr-row">
+							<td>2</td>
+							<td>Assignment</td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/editing.png"></a></td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/delete.png"></a></td>
+						</tr>
+					
+					
+										
+					</tbody>								
+				</table>
+			</div>
+			</div>
+			
+			<!----view page---->
+					<div class="view-feedback">
+			<h2 class="tit-Sec text-center"> Edit Student Feedback </h2>
+						<div class="displsy-results">
+				<table id="table1" class="table table-striped table-bordered nowrap list_Can" style="width:100%">
+					<thead>
+						<tr class="th-row">
+							<th>S.No</th>
+							<th>Description</th>
+							<th colspan="2">Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="tr-row">
+							<td>1</td>
+							<td>Quiz</td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/editing.png"></a></td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/delete.png"></a></td>
+						</tr>
+						<tr class="tr-row">
+							<td>2</td>
+							<td>Assignment</td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/editing.png"></a></td>
+							<td class="edit_delete"><a href="javascript:void();"><img src="images/delete.png"></a></td>
+						</tr>
+					
+					
+										
+					</tbody>								
+				</table>
+					<div class="save-button text-center">
+					<!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+					<button class="btn btn-unique btn-rounded btn-sm save" type="submit">Save</button>
+										
+					</div>
+			</div>
+			</div>
+			
+</div>
+
+<!-- Modal -->
+  <div class="modal fade feed_recomm_modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+		 <h4 class="modal-title">Feedback</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body">
+         <form class="row">
+		     <div class="form-group col-md-12">
+	<label class="" for="inlineFormCustomSelect">Feedback Type</label>
+   <select class="form-control">
+     <option>---Select---</option>
+  <option>Student Feedback</option>
+  <option>Parent Feedback </option>
+</select>
+  </div>
+  <div class="form-group col-md-12">
+  <label class="" for="inlineFormCustomSelect">Feedback Type</label>
+   <input class="form-control" type="text" placeholder="Feedback Type">
+  </div>
+    <div class="form-group col-md-12">
+  <label class="" for="inlineFormCustomSelect">How attentive</label>
+   <input class="form-control" type="text" placeholder="Feedback Type">
+  </div>
+
+      <div class="form-group col-md-12">
+	  <label class="" for="inlineFormCustomSelect">How attentive</label>
+   <select class="form-control">
+  <option>How attentive</option>
+  <option>Enter Feedback 1</option>
+  <option>Enter Feedback 2</option>
+  <option>Enter Feedback 3</option>
+</select>
+  </div>
+      <div class="form-group col-md-12">
+	  <label class="" for="inlineFormCustomSelect">How attentive</label>
+   <select class="form-control">
+  <option>Enter Feedback</option>
+  <option>Enter Feedback 1</option>
+  <option>Enter Feedback 2</option>
+  <option>Enter Feedback 3</option>
+</select>
+  </div>
+      <div class="form-group col-md-12">
+	  <label class="" for="inlineFormCustomSelect">How attentive</label>
+   <select class="form-control">
+  <option>Enter Feedback</option>
+  <option>Enter Feedback 1</option>
+  <option>Enter Feedback 2</option>
+  <option>Enter Feedback 3</option>
+</select>
+  </div>
+   <div class="button-form col-md-12">
+   <button type="submit" class="btn btn-primary">Save</button>
+   </div>
+</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!--end-popup-->
+<footer class="page-footer font-small blue footer-sec inner-footer">
+<div class="container-fluid">
+<div class="row">
+  <div class="footer-copyright  copyryt text-center col-md-12">© <script>document.write(new Date().getFullYear())</script>  
+  <a href="">DeepSphere.ai.</a> All rights reserved</div>
+  </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

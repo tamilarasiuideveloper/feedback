@@ -1,0 +1,317 @@
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	/**login**/
+	.card-header.logintitle {
+    font-size: 20px;
+    padding: 5px;
+	margin-top: 15px;
+}
+.card-header.logintitle h1 {
+    font-size: 23px;
+}
+.loginbody .form-control {
+    height: calc(2.25rem + 12px);
+    font-size: 16px;
+}
+.loginsubmit .btn-primary {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.footer-copyright.copyryt {
+    font-size: 18px;
+}
+.footer-copyright.copyryt a {
+    font-size: 18px;
+}
+main.login-form.form-sec {
+    position: relative;
+    top: 0;
+    -ms-transform: translateY(-50%);
+    transform: unset;
+    width: 100%;
+}
+footer.page-footer.font-small.blue {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+	display: inline-block;
+}
+/**user-creation**/
+nav.left-sidebar {
+    width: 100%;
+	height: auto;
+}
+.page-wrapper-content {
+    width: 100%;
+    height: auto;
+}
+
+h2.tit-Sec {
+    font-size: 25px;
+}
+.part-Sec-user .form-check {
+    padding: 0px;
+}
+label.resume-label {
+    padding-bottom: 0px;
+}
+.form-row.resume-file {
+    margin-bottom: 10px;
+}
+/***/
+.mobile-Menu{
+	display:block;
+	padding-left: 15px;
+
+}
+.sidebar-menu.left-admin{
+	display:none;
+}
+/**upload**/
+.upload-submit input {
+    width: 80%;
+}
+.page-wrapper-content.lIst-Que label {
+    font-size: 17px;
+}
+.list-que-Sec select {
+    font: 16px Conv_aqlswfte;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.list-que-Sec {
+    margin: 35px auto;
+}
+div#example_info {
+    padding-bottom: 10px;
+}
+.filter-row {
+    display: block;
+}
+/**admin page*/
+div.dataTables_wrapper div.dataTables_filter input{
+    margin-left: 0px !important;
+}
+.page-wrapper-content {
+    padding: 10px;
+}
+
+/**user-type 21-6-2021**/
+.user-type-cont input.submit-user {
+    margin-bottom: 10px;
+}
+div.dataTables_wrapper div.dataTables_length label,div.dataTables_wrapper div.dataTables_filter label {
+    display: block;
+	margin: 5px 0px;
+}
+input.LIst-Sub {
+    font: 16px Conv_aqrswfte;
+    margin: 10px 0px;
+	width: 100%;
+}
+.list-candidate-Sec label {
+    font-size: 16px;
+	display: block;
+}
+select.select-lg.Sele-TiL {
+    font: 16px Conv_aqlswfte;
+    padding: 15px 15px;
+	 width: 100%;
+}
+.page-wrapper-content .dataTables_info, .page-wrapper-content .dataTables_filter input, .page-wrapper-content .dataTables_filter select {
+    font: 16px Conv_aqlswfte;
+}
+.page-wrapper-content ul.pagination li {
+    font: 16px Conv_aqlswfte;
+}
+.assigned-Sec label {
+    display: block;
+}
+.filter-column {
+    width: 100%;
+}
+.filter-column input, .filter-column select {
+    width: 100%;
+}
+.filter-row.seC-COlm {
+    width: 100%;
+}
+.filter-row.seC-COlm label {
+    padding-left: 0px;
+}
+.que-Submit input,.upload-submit input {
+    font: 16px Conv_aqrswfte;
+}
+/***candidate-page***/
+
+.ryt-cir-sec {
+    width: 100%;
+    padding: 10px;
+    height: 410px;
+    margin: 20px 0px;
+}
+
+.SEC-part-FoRm.desktop-part-radio {
+    display: none;
+}
+.SEC-part-FoRm.mble-part-radio {
+    display: block;
+}
+button.next {
+    right: 5px;
+    bottom: 40px;
+}
+.timer label {
+    font-size: 18px;
+}
+div#quiz {
+    position: relative;
+}
+.slide.block__section__questionBox, .slide.block__section__questionBox.active-slide {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+h3.WelCome-txt {
+    font-size: 18px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.list-que-Sec input, .list-que-Sec select {
+    width: 58%;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+	/**login page**/
+.card-header.logintitle {
+    margin-top: 50px;
+}
+.dtr-modal-content h2 {
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 540px){
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	/**login page**/
+.card-header.logintitle {
+    font-size: 25px;
+    padding: 5px;
+	margin-top: 70px;
+}
+/***/
+h2.tit-Sec {
+    font-size: 30px;
+}
+.list-candidate-Sec label {
+    font-size: 16px;
+}
+/**scroll**/
+
+.upload-submit input {
+    width: 55%;
+}
+.filter-column input, .filter-column select {
+    width: 90%;
+}
+.filter-row.seC-COlm label {
+    padding-left: 0px;
+}
+.list-que-Sec input, .list-que-Sec select {
+    width: 30%;
+}
+select.select-lg.Sele-TiL {
+    font: 16px Conv_aqlswfte;
+    padding: 15px 24px;
+	width: 50%;
+}
+.list-candidate-Sec label {
+    font-size: 16px;
+    display: block;
+    padding: 10px 0px 0px 0px;
+}
+.col-md-3.col-sm-12.SEC-part-FoRm {
+    max-width: 40%;
+}
+.col-md-9.col-sm-12.first-prt-Form {
+    max-width: 60%;
+}
+.ryt-cir-sec {
+    width: 288px;
+    padding: 10px;
+    margin: 30px 0px;
+}
+.timer p.time-tkn {
+    font-size: 18px;
+}
+.ryt-cir-sec p {
+    padding: 10px 0px 0px 2px;
+}
+.timer label {
+    font-size: 15px;
+    padding: 5px 5px;
+    margin: 10px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+	h2.tit-Sec {
+    font-size: 35px;
+}
+input.LIst-Sub {
+    margin: 15px 20px;
+}
+.col-md-3.col-sm-12.SEC-part-FoRm {
+    max-width: 35%;
+}
+.col-md-9.col-sm-12.first-prt-Form {
+    max-width: 65%;
+}
+}
+@media only screen and (max-width: 1041px) and (min-width:1025px){
+	
+	
+}
+@media only screen and (max-width: 1280px) and (min-width:1025px){
+
+/*************/
+.assigned-Sec label {
+    display: block;
+}
+.filter-column input, .filter-column select {
+    width: 90%;
+}
+.upload-submit input {
+    width: 40%;
+}
+h2.tit-Sec {
+    font-size: 38px;
+}
+section.choss-que h4.Ques-no {
+    width: 50%;
+}
+/* .ryt-cir-sec { */
+    /* width: 100%; */
+    /* padding: 9px; */
+/* } */
+/* .timer label { */
+    /* font-size: 22px; */
+    /* padding: 5px 10px; */
+    /* margin: 5px; */
+/* } */
+/* .col-md-9.col-sm-12.first-prt-Form { */
+    /* max-width: 65%; */
+/* } */
+
+.col-md-3.col-sm-12.SEC-part-FoRm {
+    max-width: 35%;
+}
+.col-md-9.col-sm-12.first-prt-Form {
+    max-width: 65%;
+}
+}
+@media only screen and (max-width: 1940px) and (min-width:1280px){
+	/* .page-wrapper-content { */
+    /* overflow-y: scroll; */
+    /* height: 730px; */
+/* } */
+}

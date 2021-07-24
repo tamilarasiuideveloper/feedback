@@ -1,0 +1,177 @@
+header#top {
+    background: #fff;
+    -webkit-box-shadow: 0 4px -5px -12px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 5px 6px -6px #000;
+	}
+nav.navbar.navbar-light.navbar-laravel {
+    padding: 12px 0px;
+    margin: 0px;
+}
+.middle-txt {
+    padding-left: 30px;
+    width: 70%;
+}
+nav#sidebar {
+    float: left;
+    width: 20%;
+    background: #353f4e;
+    height: 81.5vh;
+    padding: 30px 0px;
+}
+.page-wrapper-content {
+    float: right;
+    width: 80%;
+    background: #eee;
+    height: auto;
+    padding: 35px;
+}
+ul#left-side-menubar li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+ul#left-side-menubar li {
+    padding: 0px;
+    display: block;
+    color: #fff;
+	list-style-type: none;
+    margin-bottom: 15px;
+    font-family: Conv_aqrswfte;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul#left-side-menubar {
+    margin: 0;
+    padding: 0px 0px;
+}
+h3.WelCome-txt {
+    font: 20px Conv_aqrswfte;
+}
+.list-details {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+.list-details select {
+    width: 180px;
+    height: 45px;
+}
+.list-details label {
+    font-size: 16px;
+    font-family: Conv_aqrswfte;
+    color: #000;
+}
+.button-type {
+    display: block;
+    margin: 0 auto;
+}
+button.search,a.reset-btn input {
+    border: 1px solid blue;
+    background: blue;
+    color: #fff;
+    height: 50px;
+    width: 100px;
+    padding: 10px 20px;
+	border-radius: 10px;
+	margin: 10px;
+}
+button.search:hover,a.reset-btn input:hover {
+    border: 1px solid green;
+    background: green;
+	color:#fff;
+}
+.first-timeOpen {
+    text-align: center;
+    margin: 50px 0px;
+}
+a.addnow,button.save {
+    border: 1px solid blue;
+    background: blue;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+a.addnow:hover,button.save:hover{
+	text-decoration: none;
+	border: 1px solid green;
+    background: green;
+	color:#fff;
+}
+.add-feedback-part {
+    border: 1px solid #000;
+    margin: 15px 0px;
+    padding: 20px 0px;
+}
+h2.tit-Sec.text-center {
+    position: relative;
+}
+h2.tit-Sec.text-center:after {
+    display: block;
+    max-width: 100%;
+    background: #299385;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    content: "";
+    height: 5px;
+    width: 116px;
+    margin-left: -58px;
+}
+.feed_recomm_modal .modal-header {
+    background: green;
+	color:#fff;
+}
+.feed_recomm_modal button.close {
+    border: 1px solid green;
+    color: #fff;
+    opacity: 1;
+}
+.feed_recomm_modal .modal-content{
+	    -webkit-box-shadow: 0 4px -5px -12px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 5px 6px -6px #000;
+}
+.button-form{
+    text-align: center;
+}
+.button-form button{
+	border: 1px solid blue;
+    background: blue;
+    color: #fff;
+    height: 50px;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-form button:hover{
+	color:#fff;
+	border: 1px solid green;
+    background: green;
+}
+td.edit_delete img {
+    width: 32px;
+    height: 32px;
+}
+.displsy-results {
+    margin: 30px 0px;
+}
+footer.page-footer.font-small.blue.footer-sec.inner-footer {
+    clear: both;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+footer a{
+	color:#fff;
+}
